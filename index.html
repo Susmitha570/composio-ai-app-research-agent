@@ -1,0 +1,479 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Composio AI App Research Agent</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    color: #20243a;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #191c40, #5146e5);
+    color: white;
+    padding: 55px 8%;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 15px 0;
+}
+
+header p {
+    max-width: 750px;
+    color: #e1e3ff;
+}
+
+.tag {
+    display: inline-block;
+    background: #ffffff25;
+    padding: 7px 14px;
+    border-radius: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: 35px auto;
+}
+
+h2 {
+    margin-bottom: 8px;
+    color: #242747;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #0000000d;
+    margin-bottom: 20px;
+}
+
+.stat-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #5146e5;
+}
+
+.stat-title {
+    color: #666;
+    font-size: 14px;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.badge {
+    background: #eeedff;
+    color: #5146e5;
+    padding: 8px 12px;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+.workflow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.workflow .card {
+    border-top: 4px solid #5146e5;
+}
+
+.workflow h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.workflow p, .card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.progress {
+    background: #eee;
+    height: 12px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 8px 0 18px;
+}
+
+.progress div {
+    height: 100%;
+    background: #5146e5;
+}
+
+.warning {
+    background: #fff5e6;
+    border-left: 4px solid orange;
+    padding: 15px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+ul {
+    padding-left: 20px;
+    color: #666;
+}
+
+li {
+    margin: 8px 0;
+}
+
+button {
+    background: white;
+    color: #5146e5;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #eeedff;
+}
+
+footer {
+    background: #191c40;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+@media(max-width: 800px) {
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .two-column {
+        grid-template-columns: 1fr;
+    }
+
+    .workflow {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 500px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .stats, .workflow {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <span class="tag">AI Product Operations Project</span>
+
+    <h1>Composio AI App Research Agent</h1>
+
+    <p>
+        A Python-based research agent designed to investigate
+        integration capabilities across 100 applications in
+        10 different categories.
+    </p>
+
+    <button onclick="window.print()">Download / Print Report</button>
+</header>
+
+<div class="container">
+
+    <!-- Project Overview -->
+
+    <section>
+        <h2>Project Overview</h2>
+        <p class="subtitle">
+            Researching application integration capabilities
+            through automated documentation analysis.
+        </p>
+
+        <div class="stats">
+
+            <div class="card">
+                <div class="stat-number">100</div>
+                <div class="stat-title">Applications Researched</div>
+            </div>
+
+            <div class="card">
+                <div class="stat-number">10</div>
+                <div class="stat-title">Categories</div>
+            </div>
+
+            <div class="card">
+                <div class="stat-number">147</div>
+                <div class="stat-title">Documentation Records</div>
+            </div>
+
+            <div class="card">
+                <div class="stat-number">20</div>
+                <div class="stat-title">Manual Audits</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Categories -->
+
+    <section class="two-column">
+
+        <div class="card">
+            <h2>Research Categories</h2>
+            <p class="subtitle">10 applications in each category.</p>
+
+            <div class="category"><span>CRM and Sales</span><b>10</b></div>
+            <div class="category"><span>Support and Helpdesk</span><b>10</b></div>
+            <div class="category"><span>Communications and Messaging</span><b>10</b></div>
+            <div class="category"><span>Marketing, Ads, Email and Social</span><b>10</b></div>
+            <div class="category"><span>Ecommerce</span><b>10</b></div>
+            <div class="category"><span>Data, SEO and Scraping</span><b>10</b></div>
+            <div class="category"><span>Developer, Infra and Data Platforms</span><b>10</b></div>
+            <div class="category"><span>Productivity and Project Management</span><b>10</b></div>
+            <div class="category"><span>Finance and Fintech</span><b>10</b></div>
+            <div class="category"><span>AI, Research and Media-native</span><b>10</b></div>
+        </div>
+
+        <div class="card">
+            <h2>Technologies Used</h2>
+            <p class="subtitle">Tools and libraries used in the project.</p>
+
+            <div class="badges">
+                <span class="badge">Python</span>
+                <span class="badge">Pandas</span>
+                <span class="badge">Requests</span>
+                <span class="badge">Composio SDK</span>
+                <span class="badge">CSV</span>
+                <span class="badge">GitHub</span>
+            </div>
+
+            <br>
+
+            <h3>Integration Capabilities</h3>
+
+            <div class="badges">
+                <span class="badge">APIs</span>
+                <span class="badge">Authentication</span>
+                <span class="badge">MCP</span>
+                <span class="badge">Webhooks</span>
+                <span class="badge">SDKs</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Workflow -->
+
+    <section>
+        <h2>Project Workflow</h2>
+        <p class="subtitle">
+            Step-by-step process followed in the project.
+        </p>
+
+        <div class="workflow">
+
+            <div class="card">
+                <h3>01. Dataset Preparation</h3>
+                <p>Prepared 100 applications and divided them into 10 categories.</p>
+            </div>
+
+            <div class="card">
+                <h3>02. Dataset Validation</h3>
+                <p>Checked application counts, categories and duplicate records.</p>
+            </div>
+
+            <div class="card">
+                <h3>03. Documentation Collection</h3>
+                <p>Collected candidate documentation URLs from application websites.</p>
+            </div>
+
+            <div class="card">
+                <h3>04. Website Scanning</h3>
+                <p>Used Python Requests to access documentation pages and extract text.</p>
+            </div>
+
+            <div class="card">
+                <h3>05. Research Agent</h3>
+                <p>Identified API, authentication, MCP, webhook and SDK keywords.</p>
+            </div>
+
+            <div class="card">
+                <h3>06. Manual Verification</h3>
+                <p>Selected 20 applications for manual auditing.</p>
+            </div>
+
+            <div class="card">
+                <h3>07. Comparison</h3>
+                <p>Compared automated findings with manual audit results.</p>
+            </div>
+
+            <div class="card">
+                <h3>08. Final Summary</h3>
+                <p>Generated CSV reports containing research statistics and findings.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Results -->
+
+    <section class="two-column">
+
+        <div class="card">
+            <h2>Project Results</h2>
+            <p class="subtitle">Research verification statistics.</p>
+
+            <p>Verified Research Entries: <b>11</b></p>
+            <div class="progress">
+                <div style="width:11%"></div>
+            </div>
+
+            <p>Entries Needing Verification: <b>89</b></p>
+            <div class="progress">
+                <div style="width:89%; background:orange"></div>
+            </div>
+
+            <p>Evidence Detection Agreement: <b>46.58%</b></p>
+            <div class="progress">
+                <div style="width:46.58%; background:#0f9b8e"></div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <h2>Research Summary</h2>
+
+            <p>
+                The research agent collected documentation information
+                and detected integration-related keywords across
+                application documentation pages.
+            </p>
+
+            <div class="warning">
+                <b>Important:</b>
+                The 46.58% value represents keyword-based
+                evidence-detection agreement. It does not represent
+                the factual accuracy of the research agent.
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Challenges -->
+
+    <section class="two-column">
+
+        <div class="card">
+            <h2>Challenges Faced</h2>
+            <ul>
+                <li>Some websites blocked automated access.</li>
+                <li>Some pages returned 403 and 404 errors.</li>
+                <li>Connection timeouts and SSL errors occurred.</li>
+                <li>Keyword detection was not always sufficient.</li>
+                <li>Manual verification was required.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Future Improvements</h2>
+            <ul>
+                <li>Improve evidence extraction.</li>
+                <li>Verify remaining applications.</li>
+                <li>Improve error handling.</li>
+                <li>Develop reliable capability detection.</li>
+                <li>Add application-level interactive reports.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- Learning -->
+
+    <section class="card">
+        <h2>What I Learned</h2>
+
+        <div class="badges">
+            <span class="badge">Python Automation</span>
+            <span class="badge">Pandas</span>
+            <span class="badge">Data Processing</span>
+            <span class="badge">API Research</span>
+            <span class="badge">Authentication</span>
+            <span class="badge">MCP</span>
+            <span class="badge">Webhooks</span>
+            <span class="badge">SDKs</span>
+            <span class="badge">CSV Reporting</span>
+            <span class="badge">GitHub</span>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Conclusion</h2>
+        <p>
+            This project helped me understand how application research
+            and integration analysis can be automated using Python.
+            I gained practical experience in website scanning,
+            documentation analysis, data processing, and manual
+            verification. I also learned that automated research
+            requires proper evidence checking to produce reliable results.
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    <h3>Composio AI App Research Agent</h3>
+    <p>Developed using Python | AI Application Research and Automation</p>
+</footer>
+
+</body>
+</html>
