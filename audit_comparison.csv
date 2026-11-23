@@ -1,0 +1,21 @@
+app_name,category,api_verified_detected_by_agent,authentication_verified_detected_by_agent,mcp_verified_detected_by_agent,webhooks_verified_detected_by_agent,sdk_verified_detected_by_agent,manual_yes_count,agent_detected_count,evidence_detection_agreement_percent
+Salesforce,CRM and Sales,No,No,No,Not compared,Not compared,3,0,0
+HubSpot,CRM and Sales,No,No,Not compared,Not compared,Not compared,2,0,0
+Zendesk,Support and Helpdesk,Yes,No,Not compared,No,Not compared,3,1,33.33
+Intercom,Support and Helpdesk,No,No,No,No,No,5,0,0
+Slack,Communications and Messaging,No,No,No,No,No,5,0,0
+Twilio,Communications and Messaging,Yes,Yes,No,No,No,5,2,40
+Google Ads,"Marketing, Ads, Email and Social",Yes,No,No,Not compared,No,4,1,25
+Meta Ads,"Marketing, Ads, Email and Social",Yes,Yes,No,No,No,5,2,40
+Shopify,Ecommerce,Yes,No,Yes,No,No,5,2,40
+WooCommerce,Ecommerce,Yes,Yes,No,Yes,Not compared,4,3,75
+DataForSEO,"Data, SEO and Scraping",Yes,Yes,Yes,No,Not compared,4,3,75
+SE Ranking,"Data, SEO and Scraping",Yes,Yes,Yes,Not compared,Not compared,3,3,100
+GitHub,"Developer, Infra and Data platforms",Yes,Yes,Not compared,Yes,No,4,3,75
+Vercel,"Developer, Infra and Data platforms",Yes,Yes,Not compared,Not compared,Yes,3,3,100
+Notion,Productivity and Project Management,Yes,Yes,Yes,No,No,5,3,60
+Airtable,Productivity and Project Management,Yes,Yes,Not compared,No,Not compared,3,2,66.67
+Stripe,Finance and Fintech,Yes,Yes,Not compared,Yes,No,4,3,75
+Plaid,Finance and Fintech,Yes,Yes,Yes,No,No,5,3,60
+NotebookLM,"AI, Research and Media-native",Yes,Yes,No,Not compared,Not compared,3,2,66.67
+Otter AI,"AI, Research and Media-native",No,No,No,Not compared,Not compared,3,0,0

@@ -1,0 +1,48 @@
+COMPOSIO AI APP RESEARCH AGENT - FINAL SUMMARY
+=======================================================
+
+Total apps in dataset: 100
+Apps in research results: 100
+Apps manually audited: 20
+Agent page records collected: 147
+
+EVIDENCE DETECTION
+------------------------------
+Average evidence-detection agreement: 46.58%
+Note: This is keyword evidence-detection agreement, not factual accuracy.
+
+CATEGORY DISTRIBUTION
+------------------------------
+AI, Research and Media-native: 10 apps
+CRM and Sales: 10 apps
+Communications and Messaging: 10 apps
+Data, SEO and Scraping: 10 apps
+Developer, Infra and Data platforms: 10 apps
+Ecommerce: 10 apps
+Finance and Fintech: 10 apps
+Marketing, Ads, Email and Social: 10 apps
+Productivity and Project Management: 10 apps
+Support and Helpdesk: 10 apps
+
+RESEARCH STATUS
+------------------------------
+Needs verification: 89
+Verified: 11
+
+AGENT SCAN STATUS
+------------------------------
+Collected: 133
+HTTP error: 403: 5
+HTTP error: 404: 5
+HTTPSConnectionPool(host='business.adobe.com', port=443): Read timed out. (read timeout=15): 1
+HTTPSConnectionPool(host='binance.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL] unknown error (_ssl.c:1028)'))): 1
+No valid URL found: 1
+HTTPSConnectionPool(host='quickbooks.intuit.com', port=443): Read timed out. (read timeout=15): 1
+
+LIMITATIONS
+------------------------------
+1. Keyword detection does not independently prove a capability.
+2. Some official documentation pages may block automated access.
+3. Some pages may time out or return errors.
+4. Manual verification is required before final capability claims.
+5. The audit covers a sample of 20 apps, not all 100 apps.

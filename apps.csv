@@ -1,0 +1,102 @@
+
+app_name,category,website,docs_hint,status
+Salesforce,CRM and Sales,https://salesforce.com/,https://developer.salesforce.com/docs,pending
+HubSpot,CRM and Sales,https://hubspot.com/,https://developers.hubspot.com/docs/api/overview,pending
+Pipedrive,CRM and Sales,https://pipedrive.com/,https://developers.pipedrive.com/,pending
+Attio,CRM and Sales,https://attio.com/,https://docs.attio.com/,pending
+Twenty,CRM and Sales,https://twenty.com/,https://docs.twenty.com/,pending
+Podio,CRM and Sales,https://podio.com/,,pending
+Zoho CRM,CRM and Sales,https://zoho.com/crm,,pending
+Close,CRM and Sales,https://close.com/,,pending
+Copper,CRM and Sales,https://copper.com/,,pending
+DealCloud,CRM and Sales,https://dealcloud.com/,https://api.docs.dealcloud.com/,pending
+Zendesk,Support and Helpdesk,https://zendesk.com/,,pending
+Intercom,Support and Helpdesk,https://intercom.com/,,pending
+Freshdesk,Support and Helpdesk,https://freshdesk.com/,,pending
+Front,Support and Helpdesk,https://front.com/,,pending
+Pylon,Support and Helpdesk,https://usepylon.com/,,pending
+LiveAgent,Support and Helpdesk,https://liveagent.com/,,pending
+Plain,Support and Helpdesk,https://plain.com/,,pending
+Help Scout,Support and Helpdesk,https://helpscout.com/,,pending
+Gorgias,Support and Helpdesk,https://gorgias.com/,,pending
+Gladly,Support and Helpdesk,https://gladly.com/,,pending
+Slack,Communications and Messaging,https://slack.com/,,pending
+Twilio,Communications and Messaging,https://twilio.com/,,pending
+Zoho Cliq,Communications and Messaging,https://zoho.com/cliq,,pending
+Lark (Larksuite),Communications and Messaging,https://larksuite.com/,https://open.larksuite.com/,pending
+Pumble,Communications and Messaging,https://pumble.com/,,pending
+Discord,Communications and Messaging,https://discord.com/,,pending
+Telegram,Communications and Messaging,https://telegram.org/,https://core.telegram.org/,pending
+WhatsApp Business,Communications and Messaging,https://business.whatsapp.com/,https://developers.facebook.com/docs/whatsapp,pending
+Aircall,Communications and Messaging,https://aircall.io/,,pending
+Vonage,Communications and Messaging,https://vonage.com/,https://developer.vonage.com/,pending
+Google Ads,"Marketing, Ads, Email and Social",https://ads.google.com/,https://developers.google.com/google-ads,pending
+Meta Ads,"Marketing, Ads, Email and Social",https://facebook.com/business/ads,https://developers.facebook.com/docs/marketing-apis,pending
+LinkedIn Ads,"Marketing, Ads, Email and Social",https://business.linkedin.com/marketing-solutions,https://learn.microsoft.com/linkedin/marketing,pending
+GoHighLevel,"Marketing, Ads, Email and Social",https://gohighlevel.com/,https://highlevel.stoplight.io/,pending
+Mailchimp,"Marketing, Ads, Email and Social",https://mailchimp.com/,https://mailchimp.com/developer,pending
+Klaviyo,"Marketing, Ads, Email and Social",https://klaviyo.com/,https://developers.klaviyo.com/,pending
+systeme.io,"Marketing, Ads, Email and Social",https://systeme.io/,,pending
+Pinterest,"Marketing, Ads, Email and Social",https://pinterest.com/,https://developers.pinterest.com/,pending
+Threads (Meta),"Marketing, Ads, Email and Social",https://threads.net/,https://developers.facebook.com/docs/threads,pending
+SendGrid,"Marketing, Ads, Email and Social",https://sendgrid.com/,,pending
+Shopify,Ecommerce,https://shopify.com/,https://shopify.dev/,pending
+WooCommerce,Ecommerce,https://woocommerce.com/,https://woocommerce.com/document/woocommerce-rest-api,pending
+BigCommerce,Ecommerce,https://bigcommerce.com/,https://developer.bigcommerce.com/,pending
+Salesforce Commerce Cloud,Ecommerce,https://salesforce.com/commerce/,https://developer.salesforce.com/docs/commerce,pending
+Magento (Adobe Commerce),Ecommerce,https://business.adobe.com/products/magento/magento-commerce.html,https://developer.adobe.com/commerce,pending
+Squarespace,Ecommerce,https://squarespace.com/,https://developers.squarespace.com/,pending
+Ecwid,Ecommerce,https://ecwid.com/,https://api-docs.ecwid.com/,pending
+Gumroad,Ecommerce,https://gumroad.com/,https://gumroad.com/api,pending
+Amazon Selling Partner,Ecommerce,https://sell.amazon.com/,https://developer-docs.amazon.com/sp-api,pending
+fanbasis,Ecommerce,https://fanbasis.com/,,pending
+DataForSEO,"Data, SEO and Scraping",https://dataforseo.com/,https://docs.dataforseo.com/,pending
+SE Ranking,"Data, SEO and Scraping",https://seranking.com/,https://seranking.com/api,pending
+Ahrefs,"Data, SEO and Scraping",https://ahrefs.com/,https://ahrefs.com/api,pending
+MrScraper,"Data, SEO and Scraping",https://mrscraper.com/,https://docs.mrscraper.com/,pending
+Apify,"Data, SEO and Scraping",https://apify.com/,https://docs.apify.com/,pending
+Firecrawl,"Data, SEO and Scraping",https://firecrawl.dev/,,pending
+Bright Data,"Data, SEO and Scraping",https://brightdata.com/,,pending
+Sherlock,"Data, SEO and Scraping",https://github.com/sherlock-project/sherlock,https://github.com/sherlock-project/sherlock,pending
+Waterfall.io,"Data, SEO and Scraping",https://waterfall.io/,,pending
+Clay,"Data, SEO and Scraping",https://clay.com/,,pending
+GitHub,"Developer, Infra and Data platforms",https://github.com/,https://docs.github.com/rest,pending
+Vercel,"Developer, Infra and Data platforms",https://vercel.com/,https://vercel.com/docs/rest-api,pending
+Netlify,"Developer, Infra and Data platforms",https://netlify.com/,https://docs.netlify.com/api,pending
+Cloudflare,"Developer, Infra and Data platforms",https://cloudflare.com/,https://developers.cloudflare.com/api,pending
+Supabase,"Developer, Infra and Data platforms",https://supabase.com/,https://supabase.com/docs,pending
+Neo4j,"Developer, Infra and Data platforms",https://neo4j.com/,https://neo4j.com/docs/api,pending
+Snowflake,"Developer, Infra and Data platforms",https://snowflake.com/,https://docs.snowflake.com/,pending
+MongoDB Atlas,"Developer, Infra and Data platforms",https://mongodb.com/atlas,https://mongodb.com/docs/atlas/api,pending
+Datadog,"Developer, Infra and Data platforms",https://datadoghq.com/,https://docs.datadoghq.com/api,pending
+Sentry,"Developer, Infra and Data platforms",https://sentry.io/,https://docs.sentry.io/api,pending
+Notion,Productivity and Project Management,https://notion.so/,https://developers.notion.com/,pending
+Airtable,Productivity and Project Management,https://airtable.com/,https://airtable.com/developers,pending
+Linear,Productivity and Project Management,https://linear.app/,https://developers.linear.app/,pending
+Jira,Productivity and Project Management,https://atlassian.com/software/jira,https://developer.atlassian.com/,pending
+Asana,Productivity and Project Management,https://asana.com/,https://developers.asana.com/,pending
+Monday.com,Productivity and Project Management,https://monday.com/,https://developer.monday.com/,pending
+ClickUp,Productivity and Project Management,https://clickup.com/,https://clickup.com/api,pending
+Coda,Productivity and Project Management,https://coda.io/,https://coda.io/developers,pending
+Smartsheet,Productivity and Project Management,https://smartsheet.com/,https://smartsheet.com/developers,pending
+Harvest,Productivity and Project Management,https://getharvest.com/,https://help.getharvest.com/api-v2,pending
+Stripe,Finance and Fintech,https://stripe.com/,https://stripe.com/docs/api,pending
+Plaid,Finance and Fintech,https://plaid.com/,https://plaid.com/docs,pending
+Binance,Finance and Fintech,https://binance.com/,https://binance-docs.github.io/,pending
+Paygent Connect,Finance and Fintech,,Paygent (NMI-powered),pending
+iPayX,Finance and Fintech,https://ipayx.ai/,https://ipayx.ai/docs,pending
+QuickBooks,Finance and Fintech,https://quickbooks.intuit.com/,https://developer.intuit.com/,pending
+Xero,Finance and Fintech,https://xero.com/,https://developer.xero.com/,pending
+Brex,Finance and Fintech,https://brex.com/,https://developer.brex.com/,pending
+Ramp,Finance and Fintech,https://ramp.com/,https://docs.ramp.com/,pending
+PitchBook,Finance and Fintech,https://pitchbook.com/,PitchBook research API,pending
+NotebookLM,"AI, Research and Media-native",,https://cloud.google.com/gemini,pending
+Otter AI,"AI, Research and Media-native",https://otter.ai/,https://help.otter.ai/ (MCP server),pending
+Fathom,"AI, Research and Media-native",https://fathom.video/,,pending
+Consensus,"AI, Research and Media-native",https://consensus.app/,OAuth requested,pending
+Reducto,"AI, Research and Media-native",https://reducto.ai/,,pending
+Devin,"AI, Research and Media-native",https://devin.ai/,https://docs.devin.ai/ (MCP),pending
+higgsfield,"AI, Research and Media-native",https://higgsfield.ai/,https://higgsfield.ai/cli,pending
+Mermaid CLI,"AI, Research and Media-native",https://github.com/mermaid-js/mermaid-cli,https://github.com/mermaid-js/mermaid-cli,pending
+YouTube Transcript,"AI, Research and Media-native",https://transcriptapi.com/,https://transcriptapi.com/,pending
+Grain,"AI, Research and Media-native",https://grain.com/,,pending

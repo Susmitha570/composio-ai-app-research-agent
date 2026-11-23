@@ -1,0 +1,6 @@
+app_name,website,http_status,page_title,meta_description,scan_status
+Salesforce,https://salesforce.com/,200,Salesforce: The #1 AI CRM | Salesforce IN,"Salesforce is the #1 AI CRM, helping companies connect with customers in a whole new way — uniting the data, apps, and agents that run the business.",Success
+HubSpot,https://hubspot.com/,200,HubSpot | Software & Tools for your Business - Homepage,"HubSpot's customer platform includes all the marketing, sales, customer service, and CRM software you need to grow your business.",Success
+Pipedrive,https://pipedrive.com/,200,Sales CRM & Pipeline Management Software | Pipedrive,"Pipedrive is the easy-to-use, #1 user-rated CRM tool. Get more qualified leads and grow your business with our sales CRM. Sign up for a 14-day free trial.",Success
+Attio,https://attio.com/,200,Attio: The CRM for agentic revenue,"The system for revenue teams to build pipeline, accelerate deals, and grow accounts around the clock.	",Success
+Twenty,https://twenty.com/,200,Twenty | #1 Open Source CRM,"The #1 Open Source CRM for modern teams. Modular, scalable, and built to fit your business.",Success
