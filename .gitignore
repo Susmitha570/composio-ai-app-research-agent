@@ -1,0 +1,44 @@
+
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+
+Composio AI App Research Agent/
+│
+├── .gitignore
+├── data/
+│   ├── apps.csv
+│   └── research_input.csv
+│
+├── outputs/
+│   ├── documentation_links.csv
+│   ├── research_results.csv
+│   ├── website_scan.csv
+│   ├── verification_queue.csv
+│   ├── agent_findings.csv
+│   ├── evidence_summary.csv
+│   ├── manual_audit.csv
+│   └── audit_comparison.csv
+│
+├── reports/
+│   └── final_summary.txt
+│
+├── src/
+│   ├── docs_collector.py
+│   ├── prepare_research.py
+│   ├── research_config.py
+│   ├── validate_dataset.py
+│   ├── website_scanner.py
+│   ├── create_verification_queue.py
+│   ├── research_agent.py
+│   ├── evidence_summary.py
+│   ├── create_manual_audit.py
+│   ├── compare_audit.py
+│   └── final_summary.py
+│
+└── test_composio.py
